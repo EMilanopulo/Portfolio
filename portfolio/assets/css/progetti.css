@@ -1,0 +1,81 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    writing-mode: tb-rl;
+    padding: 32px;
+}
+
+br {
+    margin-bottom: 20px;
+}
+
+#menprog {
+    border-right: 2px solid white;
+    width: 50px;
+    height: 100vh;
+}
+
+#home {
+    margin-top: 330px;
+}
+
+.crmcont {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.titolo {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.descrizione {
+    color: rgba(191, 183, 183, 0.649);
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+.tec {
+    display: inline;
+    font-size: 1.3em;
+    color: rgba(191, 183, 183, 0.649);
+}
+
+.titolo2 {
+    display: inline-block;
+    margin: 30px 10px 25px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.collega{
+    border: 1px solid white;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 7px 12px;
+}
+
+.due {
+    margin: 40px 0 0 -200px;
+    
+}
+
+.crmcont img {
+    width: 75%;
+    height: auto;
+    margin-bottom: 40px;
+}

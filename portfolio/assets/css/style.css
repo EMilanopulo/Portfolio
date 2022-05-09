@@ -1,0 +1,326 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    writing-mode: tb-rl;
+    padding: 32px;
+}
+
+strong {
+    font-size: 0.9em;
+}
+
+#men1 {
+    border-right: 2px solid white;
+    width: 50px;
+    height: 100vh;
+}
+
+#men2{
+    border-right: 2px solid white;
+    width: 50px;
+    height: 100vh;
+}
+
+#menabout {
+    border-right: 2px solid white;
+    width: 50px;
+    height: 178vh;
+}
+
+#menprog {
+    border-right: 2px solid white;
+    width: 50px;
+    height: 100vh;
+}
+
+#home {
+    margin-top: 330px;
+}
+
+#cv{
+    margin-top: 330px;
+}
+
+#decora{
+    margin-top: 30px;
+    border: 1px solid white;
+    content: "";
+    width: 80%;
+    animation-name: lineaoriz;
+    animation-duration: 1s;
+    transition-timing-function: linear;
+}
+
+#verticale{
+    position: absolute;
+    top: 5%;
+    left: 900px;
+    height: 450px;
+    border-left: 2px solid white;
+    content: "";
+    animation-name: lineavert;
+    animation-duration: 0.9s;
+    transition-timing-function: linear;
+}
+
+#email{
+    margin-left: 14px;
+}
+
+#curriculum {
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    width: 60%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#tornasu {
+    position: absolute;
+    top: 172vh;
+    left: 95%;
+    font-size: 1em;
+}
+
+
+.hr {
+    border: 1px solid white;
+    content: "";
+    width: 1490px;
+    margin-left: -50px;
+    margin-top: 40px;
+}
+
+.crmcont {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    font-size: 2.6em;
+}
+
+.contine {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+}
+
+.contine p {
+    font-size:1.2em;
+    line-height: 1.5;
+}
+
+.conti {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 2.5em;
+}
+
+.conti h1 {
+    font-size: 2.6em;
+    margin-bottom: 15px;
+    animation-name: h1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.conti h2 {
+    animation-name: h1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.menu2 {
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    writing-mode: tb-rl;
+    padding: 30px;
+}
+
+.progi {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    /*animation-name: grandezza;
+    animation-duration: 1s;
+    animation-timing-function: linear;*/
+}
+
+.prog {
+    padding: 0 5px;
+}
+
+.linea{
+    border: 1px solid white;
+    width: 80px;
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -165px;
+    left: 125px;
+}
+
+.contatti {
+    margin: 95px 0 0 350px;
+}
+
+.icone {
+    margin-bottom: 12px;
+}
+
+.riferim {
+    margin-left: -39px;
+}
+
+.riferim1 {
+    margin-left: -55px;
+}
+
+.col-12 h1 {
+    margin-bottom: 25px;
+    font-size: 2.4em;
+}
+
+p .bi {
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.prog img {
+    display: inline;
+    width: 37%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.prog p {
+    display: inline-block;
+    position: relative;
+    top: -160px;
+    left: 135px;
+    font-size: 1.1em;
+}
+
+.contatti h4 {
+    margin-bottom: 10px;
+}
+
+
+/*ANIMAZIONI*/
+@keyframes h1 {
+    0% {opacity:0}
+    5% {opacity:0.1}
+    15% {opacity:0.2}
+    25%{opacity: 0.3}
+    35% {opacity:0.4}
+    50% {opacity: 0.5}
+    65% {opacity:0.6}
+    75%{opacity: 0.7}
+    85% {opacity:0.8}
+    95% {opacity:0.9}
+    100% {opacity: 1}
+    }
+
+@keyframes lineaoriz {
+    0% {margin-top: -600px}
+    5% {margin-top: -550px}
+    10% {margin-top: -500px}
+    15% {margin-top: -450px}
+    20% {margin-top: -400px}
+    25%{margin-top: -350px}
+    30% {margin-top: -300px}
+    35% {margin-top: -250px}
+    40% {margin-top: -200px}
+    45% {margin-top: -150px}
+    50% {margin-top: -100px}
+    55% {margin-top: -50px}
+    60% {margin-top: 0px}
+    65% {margin-top: 5px}
+    70% {margin-top: 10px}
+    75%{margin-top: 15px}
+    80% {margin-top: 20px}
+    85% {margin-top: 25px}
+    100% {margin-top: 30px}
+    }
+
+@keyframes lineavert {
+    0% {left: -600px}
+    5% {left: -100px}
+    10% {left: 0px}
+    15% {left: 50px}
+    20% {left: 100px}
+    25%{left: 150px}
+    30% {left: 200px}
+    35% {left: 250px}
+    40% {left: 300px}
+    45% {left: 350px}
+    50% {left: 400px}
+    55% {left: 450px}
+    60% {left: 500px}
+    65% {left: 550px}
+    70% {left: 600px}
+    75%{left: 650px}
+    80% {left: 700px}
+    85% {left: 750px}
+    90% {left: 800px}
+    95% {left: 850px}
+    100% {left: 900px}
+    }
+
+@keyframes grandezza {
+    0% {left: -2000px}
+    1% {left: -1900px}
+    2% {left: -1800px}
+    3% {left: -1700px}
+    4% {left: -1600px}
+    5% {left: -1500px}
+    6% {left: -1400px}
+    7% {left: -1300px}
+    8% {left: -1200px}
+    9% {left: -1100px}
+    10% {left: -1000px}
+    11% {left: -900px}
+    12% {left: -800px}
+    13% {left: -700px}
+    14% {left: -600px}
+    15% {left: -500px}
+    20% {left: -400px}
+    21% {left: -300px}
+    22% {left: -200px}
+    23% {left: -100px}
+    24% {left: -90px}
+    25% {left: -80px}
+    26% {left: -70px}
+    27% {left: -60px}
+    28% {left: -50px}
+    29% {left: -40px}
+    30% {left: -30px}
+    33% {left: -20px}
+    35% {left: -10px}
+    40% {left: 0px}
+    45% {left: 1%}
+    50% {left: 2%}
+    55% {left: 3%}
+    60% {left: 4%}
+    65% {left: 5%}
+    70% {left: 6%}
+    80% {left: 7%}
+    90% {left: 8%}
+    95% {left: 9%}
+    100% {left: 10%}
+}
